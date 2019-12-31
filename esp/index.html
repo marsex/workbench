@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" name="viewport" content= "width=device-width, user-scalable=no">
+<link href="icon.png" type="image/x-icon" rel="shortcut icon">
+<style type="text/css">
+  html, body, p, li {
+    height: -webkit-fill-available;
+    margin: auto;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    background: url("yoinks4.png") no-repeat center;
+    min-width: 320px;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
+.switch {
+position: relative;
+width: 44px;
+display: inline-block;
+height: 34px;
+}
+.led {
+position: relative;
+display: inline-block;
+width: 34px;
+height: 34px;
+}
+.entrada {
+top: 1px;
+position: absolute;
+border-radius: 50%;
+background-color: #ff504f;
+width: 34px;
+height: 34px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.entrada input{
+opacity: 0;
+width: 0;
+height: 0;
+}
+input:checked + .entrada {background-color: #02e266}
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ff504f;
+-webkit-transition: .15s;
+transition: .15s;
+}
+.slider:before {
+position: absolute;
+content: "";
+height: 32px;
+width: 32px;
+left: 1px;
+bottom: 1px;
+background-color: white;
+-webkit-transition: .15s;
+transition: .15s;
+}
+input:checked + .slider {background-color: #02e266;}
+input:focus + .slider {box-shadow: 0 0 0 #2196F3;}
+input:checked + .slider:before {
+-webkit-transform: translateX(10px);
+-ms-transform: translateX(10px);
+transform: translateX(10px);
+}
+.slider.round {border-radius: 34px;}
+.slider.round:before {border-radius: 50%;}
+iframe:focus {
+  outline: none;
+}
+
+  .loading {
+    text-align: right;
+    width: 48px; height: 48px;
+    float: right; 
+  }
+    .top-bar {
+      margin: auto;
+      height: 48px;
+      background-color: #F2F3F4;
+      border-bottom: 1px solid #ebebeb;
+      display:flex;
+    }
+      .mini-logo {
+        width: 48px; 
+        height: 48px;
+        text-align: left;
+        display: flex;
+      }
+
+  .white {
+    width: -webkit-fill-available;
+    height:-webkit-fill-available;
+    text-align: center;
+    margin: auto;
+  }
+  .bottom-bar {margin: auto;}
+    .logo {margin-top: 45px; 
+      width: 128px; height: 128px;
+    }
+    .welcome {color: #4D4D4D;font-weight: bold;
+    font-size: 30px;margin-top: 20px;
+    }
+    .login {margin:auto;width: -webkit-fill-available;}
+    .psw {font-size: 14px;text-align: left;margin: auto;
+      width: 82%;margin-top: 39px;
+    }
+      .psw:focus-within .lbl {color: #29A0FF;}
+      .lbl {
+        margin: auto;
+        color: #909090;
+        width: -webkit-fill-available;
+      }
+      .lbl2 {color: #29A0FF;}
+      .lbl3 {color: #909090; font-size: 19px;font-family: "Arial";}
+      
+      input[type=password] {
+        font-size: 16px;
+        width: 100%;
+        padding: 8px 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        -webkit-transition: 0.2s;-*
+        transition: 0.2s;
+        outline: none;
+      }
+      
+      input[type=password]:focus{border: 1px solid #29A0FF;}
+      
+      input[type=submit] {
+        font-size: 15px;
+        width: 82%;
+        height: 58px;
+        background-color: #29A0FF;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+      }
+
+      .newacc {
+        margin: auto;
+        text-align: left;
+        width: 82%;
+      }
+
+  .main_layer {
+    margin:auto;
+    display:none;
+  }
+  .container{
+    display:flex;
+  }
+  .control {
+    padding-top: 2px;
+    padding-left: 2px;
+  }
+  .etiqueta{
+    font-size: 16px;
+    flex-grow: 1;
+  }
+
+.sensores_overlay {
+  position: absolute;
+}
+  .sensor-box{
+    position: relative;
+    padding: 3px;
+    font-size: 20px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    top: 3px;
+    left: 3px;
+  }
+    .title{
+      color: black;
+      font-size: 15px;
+    }
+    .icono_img{
+      display: flex;
+      height: 32px;
+    }
+    .dht_tmp{
+      display: flex;
+      color: #fa9c24;
+    }
+    .dht_hmd{
+      display: flex;
+      color: #3498db;
+    }
+    .lbl_tmp{
+      margin-top:2px;
+      color: #fa9c24;
+    width: 100%;
+    }
+    .lbl_hmd{
+      margin:2px;
+      color: #3498db;
+    width: 100%;
+    }
+
+iframe{
+  outline: none;
+  margin:auto;
+  border:none;
+}
+
+.host_bar {
+    width: 100%;
+    float: right;
+    padding-right: 10px;
+}
+  .host_menu {
+      margin-top: 7px;
+      border: 2px solid #bbc0c5;
+      border-radius: 100px;
+      height: 32px;
+      display: flex;
+      float: right;
+      cursor: pointer;
+  }
+    .status_div{
+      display: inline-flex;
+        cursor: pointer;
+    }
+    .hostname {
+        font-size: 15px;
+        line-height: 14px;
+        flex: 1 1 auto;
+        color: #4d4d4d;
+        font-weight: 400;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 16px;
+    }
+    #host_status{
+      height: 32px;
+    }
+    .arrow_div{
+      display:flex;
+    }
+    .arrow_down {
+        height: 18px;
+        padding: 8px;
+    }
+
+.menu_layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: none;
+    z-index: 3;
+}
+  .host_menu_drop {
+      width: 270px;
+      border-radius: 4px;
+      padding: 10px 10px;
+      background: rgba(0, 0, 0, 0.8);
+      float: right;
+      text-align: left;
+      margin-top: 51px;
+      margin-right: 10px;
+      display:none;
+  }
+    .menu_title {
+        color: #fff;
+        font-size: 18px;
+        line-height: 30px;
+        padding-block-end: 10px;
+        margin-block-end: 10px;
+        border-block-end: 1px solid #5d5d5d;
+        text-align: center;
+    }
+    .hostname_div {
+        font-size: 18px;
+        display: inline-flex;
+        line-height: 30px;
+    }
+    #host1{color: white;}
+    #host2{color: rgb(185, 185, 185);}
+    #host3{color: rgb(185, 185, 185);}
+
+
+  .controles_menu_drop {
+      margin-top: 49px;
+      height: 48px;
+      width: 128px;
+      background-color: #F2F3F4;
+      float: left;
+      text-align: left;
+      border-right: 1px solid #ebebeb;
+      border-bottom: 1px solid #ebebeb;
+      display:none;
+      z-index: 2;
+  }
+  .menu_item {
+      display: block;
+      height: 48px;
+      width: 136px;
+      background-color: #F2F3F4;
+      float: left;
+      text-align: left;
+      border-right: 1px solid #ebebeb;
+      border-bottom: 1px solid #ebebeb;
+      cursor: pointer;
+  }
+  .iconos_controles{
+    height:48px
+  }
+  .title_item {
+      display: inline-table;
+      position: absolute;
+      padding: 13px;
+      margin-left: -8px;
+  }
+
+  .control_table{
+    background: #ffffffb3;
+    border-block-end: 1px solid #ccc;
+  }
+  .cell{
+    display: table-cell;
+    float: left;
+    padding: 2px;
+  }
+  .row{
+    display: inline-grid;
+    margin: 1px;
+    border: 1px solid #fa9c24;
+    min-height: 70px;
+  }
+  .flex{
+    display:flex;
+    margin-top: 3px;
+  }
+  
+  .segmento_drop_layer {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      margin: auto;
+      display: none;
+      z-index: 3;
+  }
+    .segmento_drop {
+      border-radius: 15px;
+      background: rgba(0, 0, 0, 0.8);
+      position: absolute;
+      left: 43px;
+      top: 87px;
+    }
+    .segmento_objeto {
+      cursor: pointer;
+      padding: 10px;
+      border-block-end: 1px solid #5d5d5d;
+    }
+    .segmento{
+      padding-left: 10px;
+      border: 2px solid #bbc0c5;
+      border-radius: 100px;
+      height: 32px;
+      display: flex;
+      cursor: pointer;
+    }
+    .objeto {
+      padding-top: 5px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .unselected{color: white;}
+    .selected{color: white;}
+  
+  .programa_input {
+    margin-right:2px;
+    text-align: center;
+    font-size: 25px;
+    width: 52px;
+    border: 2px solid #bbc0c5;
+    -webkit-transition: 0.2s;
+    outline: none;
+  }
+  input#var_set{
+    text-align: center;
+    font-size: 25px;
+    width: 70px;
+    border: 2px solid #bbc0c5;
+    -webkit-transition: 0.2s;
+    outline: none;
+  }
+  .tmp_input:focus-within .lbl {
+    color: #fa9c24;
+  }
+  input#var_set:focus{
+    border: 2px solid #fa9c24;
+  }
+  .programa_input:focus{
+    border: 2px solid #fa9c24;
+  }
+</style>
+<title>ESP32 Login</title>
+<body>
+<div class="white">
+  <div class="menu_layer"id="menu_layer">
+    <div id="host_menu_drop" class="host_menu_drop">
+      <div class="menu_title">Redes</div>
+      <div class="status_div">
+        <div style="font-size:14px; color: rgb(185, 185, 185);padding-block-end: 10px;">
+          La Red predeterminada es "Red primaria AR#1"
+        </div>
+      </div>
+      <div class="status_div">
+        <img style="height: 32px;" src="img\online.png" >
+        <div class="hostname_div" id="host1">Red primaria AR#1</div>
+      </div>
+      <div class="status_div">
+        <img style="height: 32px;" src="img\online.png" >
+        <div class="hostname_div" id="host3">Red secundaria AR#2</div>
+      </div>
+      <div class="status_div">
+        <img style="height: 32px;" src="img\offline.png">
+        <div class="hostname_div" id="host2">Localhost 1259</div>
+      </div>
+    </div>
+
+    <div id="controles_menu_drop" class="controles_menu_drop">
+      <div class="menu_item" id="menu-inicio">
+        <img class="iconos_controles" id="menu_inicio" src="lg8.png">
+        <div class="title_item">Inicio</div>
+      </div>
+      <div class="menu_item" id="menu-sensores">
+        <img class="iconos_controles" id="menu_sensores" src="img\sensores.png">
+        <div class="title_item">Sensores</div>
+      </div>
+      <div class="menu_item" id="menu-monitoreo">
+        <img class="iconos_controles" id="menu_monitoreo" src="img\monitoreo.png">
+        <div class="title_item">Monitoreo</div>
+      </div>
+      <div class="menu_item" id="menu-opciones">
+        <img class="iconos_controles" id="menu_opciones" src="img\opciones.png">
+        <div class="title_item">Opciones</div>
+      </div>
+      <div class="menu_item" id="menu-salir">
+        <img class="iconos_controles" id="menu_salir" src="img\cuenta.png">
+        <div class="title_item">Salir</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-bar">
+    <div class="mini-logo" id="controles_menu">
+      <img id="current_menu" class="mini-logo" src="lg8.png" style="border-right: 1px solid rgb(235, 235, 235);">
+      <div id="arrow_div"class="arrow_div" style="display: none;padding-top: 8px;margin-left: 0px;border-right: 1px solid rgb(235, 235, 235);z-index: 2;">
+        <img class="arrow_down" id="host_arrow" src="img\arrow2.png">
+      </div>
+    </div>
+    
+    <div class="host_bar">
+      <div class="host_menu" id="host_menu">
+        <div class="status_div"><img id="host_status" src="img\online.png"></div>
+        <div style="padding: 8px 0px;">
+          <div class="hostname" id="hostname">Red AR#1</div>        
+        </div>
+        <div class="arrow_div"><img class="arrow_down" id="host_arrow" src="img\arrow2.png"></div>
+      </div>
+      <div id="loading" class="loading"><img style="height:48px;" src="img\loading128.gif"></div>
+    </div>
+  </div>
+    
+  <div id="login_layer" class="login_layer">
+    <div class="bottom-bar">
+      <img style="width: 128px; height: 128px;" class="logo" src="icon450v3.png">
+      <div class="welcome">Bienvenido!</div>
+      <label class="lbl3">Su hogar lo espera</label>
+
+      <div class="login">
+        <div class="psw">
+          <label class="lbl">Contraseña</label>
+          <input id="asmon_user" type="password">
+        </div>
+        <div style="margin-top: 20px;">
+          <input id="login_input" value="INICIAR" type="submit" style="width: 82%;height: 58px;">
+        </div>
+
+        <div style="margin-top: 15px;" class="newacc">
+          <label class="lbl">Nuevo Usuario?</label><br>
+          <label class="lbl2">Registrar nuevo Usuario</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main_layer" class="main_layer">
+    <div class="controles_layer">
+      <div class="container">
+        <div class="control"><label id="swi-0" class="switch">
+          <input id="pin-0" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 1</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-0" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 1</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-1" class="switch">
+          <input id="pin-1" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 2</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-1" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 2</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-2" class="switch">
+          <input id="pin-2" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 3</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-2" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 3</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-3" class="switch">
+          <input id="pin-3" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 4</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-3" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 4</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-4" class="switch">
+          <input id="pin-4" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 5</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-4" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 5</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-5" class="switch">
+          <input id="pin-5" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 6</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-5" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 6</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-6" class="switch">
+          <input id="pin-6" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 7</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-6" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 7</td></tr></tbody></table></div>
+      </div>
+      <div class="container">
+        <div class="control"><label id="swi-7" class="switch">
+          <input id="pin-7" disabled="disabled" type="checkbox"><span class="slider round"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Salida 8</td></tr></tbody></table></div>
+        <div class="control"><label class="led">
+          <input id="in-7" disabled="disabled" type="checkbox"><span class="entrada"></span></label></div>
+        <div class="etiqueta"><table style="width: 100%; height: 100%;"><tbody><tr><td style="text-align: center; vertical-align: middle; margin:auto;">
+          Entrada 8</td></tr></tbody></table></div>
+      </div>
+    </div>
+      
+    <div id="sensores_overlay_box">
+      <div id="layer_dht1" class="sensores_overlay">
+        <div class="sensor-box">
+          <div class="title">
+            <label id="title">Sensor 1:</label>
+          </div>
+          <div class="dht_tmp">
+            <img class="icono_img" src="img\celsius6.png">
+            <div class="lbl_tmp"><b><label id="dht1_tmp"></label></b>°c</div>
+          </div>
+
+          <div class="dht_hmd">
+            <img class="icono_img" src="img\humity6.png">
+            <div class="lbl_hmd"><b><label id="dht1_hmd"></label></b>%</div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="layer_dht2" style="margin-top:93px"class="sensores_overlay">
+        <div class="sensor-box">
+          <div class="title">
+            <label id="title">Sensor 2:</label>
+          </div>
+          <div class="dht_tmp">
+            <div class="icono_div"><img class="icono_img" src="img\celsius6.png"></div>
+            <div class="lbl_tmp"><b><label id="dht2_tmp"></label></b>°c</div>
+          </div>
+
+          <div class="dht_hmd">
+            <div class="icono_div"><img class="icono_img" src="img\humity6.png"></div>
+            <div class="lbl_hmd"><b><label id="dht2_hmd"></label></b>%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <div class="cam"><img id="downloadImg" style="width: 100%;"></div>
+
+    <iframe id="iframefast" STYLE='position:absolute; TOP:0px; LEFT:0px'height="0" width="0"></iframe>
+    <div style="margin-top:-3px; font-size: 14px;display:none;"class="checkbox_div">
+      <input id="show_dht1" type="checkbox" checked>Sensor 1
+      <input id="show_dht2" type="checkbox" checked>Sensor 2
+    </div>
+  </div>    
+
+  <div id="sensores_layer2" class="sensores_layer2" style="display:none">
+    <div id="segmento_drop_layer" class="segmento_drop_layer">
+      <div id="medicion-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="medicion-1">
+          <div class="selected">Temperatura</div>
+        </div>
+        <div class="segmento_objeto" id="medicion-2" style="border: none;">
+          <div class="unselected">Humedad</div>
+        </div>
+      </div>
+      
+      <div id="sensores-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="sensores-1">
+          <div class="selected">Sensor 1</div>
+        </div>
+        <div class="segmento_objeto" id="sensores-2" style="border: none;">
+          <div class="unselected">Sensor 2</div>
+        </div>
+      </div>
+      
+      <div id="sensor_condicion-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="condicion-1">
+          <div class="selected">Debajo</div>
+        </div>
+        <div class="segmento_objeto" id="condicion-2" style="border: none;">
+          <div class="unselected">Encima</div>
+        </div>
+      </div>
+      
+      <div id="tmp_interval-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="check_interval-1">
+          <div class="selected">Segundos</div>
+        </div>
+        <div class="segmento_objeto" id="check_interval-2">
+          <div class="unselected">Minutos</div>
+        </div>
+        <div class="segmento_objeto" id="check_interval-3" style="border: none;">
+          <div class="unselected">Horas</div>
+        </div>
+      </div>
+      
+      <div id="estado_on-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="estado_on-1">
+          <div class="selected">Encender</div>
+        </div>
+        <div class="segmento_objeto" id="estado_on-2" style="border: none;">
+          <div class="unselected">Apagar</div>
+        </div>
+      </div>
+      
+      <div id="salida_on-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="salida_on-1">
+          <div class="selected">Salida 1</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-2">
+          <div class="unselected">Salida 2</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-3">
+          <div class="unselected">Salida 3</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-4">
+          <div class="unselected">Salida 4</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-5">
+          <div class="unselected">Salida 5</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-6">
+          <div class="unselected">Salida 6</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-7">
+          <div class="unselected">Salida 7</div>
+        </div>
+        <div class="segmento_objeto" id="salida_on-8" style="border: none;">
+          <div class="unselected">Salida 8</div>
+        </div>
+      </div>
+      
+      <div id="on_time-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="on_time-1">
+          <div class="selected">Segundos</div>
+        </div>
+        <div class="segmento_objeto" id="on_time-2">
+          <div class="unselected">Minutos</div>
+        </div>
+        <div class="segmento_objeto" id="on_time-3" style="border: none;">
+          <div class="unselected">Horas</div>
+        </div>
+      </div>
+      
+      <div id="estado_off-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="estado_off-1">
+          <div class="selected">Encender</div>
+        </div>
+        <div class="segmento_objeto" id="estado_off-2" style="border: none;">
+          <div class="unselected">Apagar</div>
+        </div>
+      </div>
+      
+      <div id="salida_off-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="salida_off-1">
+          <div class="selected">Salida 1</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-2">
+          <div class="unselected">Salida 2</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-3">
+          <div class="unselected">Salida 3</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-4">
+          <div class="unselected">Salida 4</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-5">
+          <div class="unselected">Salida 5</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-6">
+          <div class="unselected">Salida 6</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-7">
+          <div class="unselected">Salida 7</div>
+        </div>
+        <div class="segmento_objeto" id="salida_off-8" style="border: none;">
+          <div class="unselected">Salida 8</div>
+        </div>
+      </div>
+      
+      <div id="off_time-1-drop" class="segmento_drop" style="display: none;">
+        <div class="segmento_objeto" id="off_time-1">
+          <div class="selected">Segundos</div>
+        </div>
+        <div class="segmento_objeto" id="off_time-2">
+          <div class="unselected">Minutos</div>
+        </div>
+        <div class="segmento_objeto" id="off_time-3" style="border: none;">
+          <div class="unselected">Horas</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="control_table">      
+      <div style="background: rgba(255,255,255,0.8);text-align: left;color: #fa9c24;font-size: 20px;font-weight: 400;padding-top: 10px;padding-left: 8px;padding-bottom: 8px;border-block-end: 1px solid #ccc;">
+        Control de Temperatura: Sensor 1
+      </div>
+      <div class="row">
+        <div class="cell">Habilitar</div>
+        <div class="cell">
+          <label id="control-0" class="switch"><input id="tmp_enable-0" type="checkbox"><span class="slider round"></span></label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cell">Temperatura:</div>
+        <div class="cell">
+          <label id="label_tmp_set" style="font-size: 27px;font-weight: 600;color: #fa9c24;">30.4°C</label>
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <div class="cell">Seteo:</div>
+        <div class="cell">
+          <div class="tmp_input">
+            <input id="var_set" value="30.4">
+            <label class="lbl" style="margin-left: -6px;font-size: 27px;font-weight: 600;padding: 2px;">°C</label>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell">Salida:</div>
+        <div class="cell">
+          <div class="segmento" id="segmento_salida_on-1">
+            <div class="objeto">
+              Salida 3
+            </div>
+            <div class="arrow_div"><img class="arrow_down" src="img\arrow2.png"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="cell">Tiempo de encendido:</div>
+        <div class="cell">
+          <div class="flex">
+            <input class="programa_input" id="on_time" value="30">
+            <div class="segmento" id="segmento_on_time-1">
+              <div class="objeto">
+                Segundos
+              </div>
+              <div class="arrow_div"><img class="arrow_down" src="img\arrow2.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="cell">Tiempo de apagado:</div>
+        <div class="cell">
+          <div class="flex">
+            <input class="programa_input" id="off_time" value="10">
+            <div class="segmento" id="segmento_off_time-1">
+              <div class="objeto">
+                Segundos
+              </div>
+              <div class="arrow_div"><img class="arrow_down" src="img\arrow2.png"></div>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="row" style="display:none">
+        <div class="cell">Intervalo de medicion:</div>
+        <div class="cell">
+          <div class="flex">
+            <input class="programa_input" id="tmp_interval" value="5">
+            <div class="segmento" id="segmento_tmp_interval-1">
+              <div class="objeto">
+                Segundos
+              </div>
+              <div class="arrow_div"><img class="arrow_down" src="img\arrow2.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input id="send_sensor1_data" type="submit" style="
+          height: 36px;
+          border-radius: 100px;
+          margin: 2px;
+          font-size: 15px;
+          max-width: 900px;
+      " value="Guardar Configuracion: Sensor 1">
+    </div>
+  <div style="height: 34px;background: rgba(255,255,255,0.8);border-block-end: 1px #ccc solid;"><img class="arrow_down" src="img\arrow3.png"></div>
+  </div>
+
+</div>
+<script src="mainv9.js"></script> 
+</body>
+</html>
