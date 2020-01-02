@@ -318,7 +318,6 @@ function load_inicio(){
 }
 
 function getd(){
-  
   if (data == ''){app_json='{"version":"v0.9.1.1","platform":"chrome","user":"'+asmon_user+'","command":"get"}'}
   else{app_json='{"version":"v0.9.1.1","platform":"chrome","user":"'+asmon_user+'","command":"'+command+'","update":{"command":"'+command+'","update":"'+data+'"}}'}
 
