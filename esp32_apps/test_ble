@@ -1,0 +1,29 @@
+from micropython import const
+_IRQ_SCAN_RESULT                     = const(1 << 4)
+_IRQ_SCAN_COMPLETE                   = const(1 << 5)
+
+def adv_decode(adv_type, data):
+    i = 0
+    while i + 1 < len(data):
+        if data[i + 1] == adv_type:
+            return data[i + 2:i + data[i] + 1]
+        i += 1 + data[i]
+    return None
+
+def adv_decode_name(data):
+    n = adv_decode(0x09, data)
+    if n:
+        return n.decode('utf-8')
+    return data
+
+def bt_irq(event, data):
+  if event == _IRQ_SCAN_RESULT:
+        # A single scan result.
+        addr_type, addr, connectable, rssi, adv_data = data
+        print(addr_type, addr, adv_decode_name(adv_data))
+    elif event == _IRQ_SCAN_COMPLETE:
+        # Scan duration finished or manually stopped.
+        print('scan complete')
+
+# Scan for 10s (at 100% duty cycle)
+ble.gap_scan(10000, 30000, 30000)
