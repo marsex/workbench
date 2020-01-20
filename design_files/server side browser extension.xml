@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-20T20:04:42.783Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="3_d_yyDkbZxUx4gugi4s" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-20T20:28:22.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="sDVDp97EgMNvknCdmi9q" version="12.5.5" type="github">
   <diagram id="fk6FcAUhAB_gwT03TpT6" name="Page-1">
     <mxGraphModel dx="1424" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pPHUmfUADK51aJkziXxl-205" value="ideas for start():" style="swimlane;strokeColor=#d79b00;fillColor=#CFFFBA;fontSize=14;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="30" y="85" width="780" height="200" as="geometry">
+          <mxGeometry x="30" y="90" width="780" height="200" as="geometry">
             <mxRectangle x="710" y="121.67" width="140" height="48.33" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -45,7 +45,7 @@
           <mxGeometry x="10" y="140" width="120" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pPHUmfUADK51aJkziXxl-118" value="handle_captcha():" style="swimlane;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=14;startSize=50;" parent="1" vertex="1">
-          <mxGeometry x="30" y="305" width="780" height="520" as="geometry">
+          <mxGeometry x="30" y="310" width="780" height="520" as="geometry">
             <mxRectangle x="30" y="100" width="140" height="48" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -67,13 +67,13 @@
         <mxCell id="pPHUmfUADK51aJkziXxl-29" value="send_captcha(info,base64):" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="pPHUmfUADK51aJkziXxl-118" vertex="1">
           <mxGeometry x="10" y="460" width="160" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="pPHUmfUADK51aJkziXxl-50" value="connect to python server" style="rounded=0;whiteSpace=wrap;html=1;" parent="pPHUmfUADK51aJkziXxl-118" vertex="1">
+        <mxCell id="pPHUmfUADK51aJkziXxl-50" value="data = info+base64" style="rounded=0;whiteSpace=wrap;html=1;" parent="pPHUmfUADK51aJkziXxl-118" vertex="1">
           <mxGeometry x="210" y="460" width="120" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pPHUmfUADK51aJkziXxl-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;" parent="pPHUmfUADK51aJkziXxl-118" source="pPHUmfUADK51aJkziXxl-29" target="pPHUmfUADK51aJkziXxl-50" edge="1">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="pPHUmfUADK51aJkziXxl-52" value="send info + base64" style="rounded=0;whiteSpace=wrap;html=1;" parent="pPHUmfUADK51aJkziXxl-118" vertex="1">
+        <mxCell id="pPHUmfUADK51aJkziXxl-52" value="fetch server.url/ + data" style="rounded=0;whiteSpace=wrap;html=1;" parent="pPHUmfUADK51aJkziXxl-118" vertex="1">
           <mxGeometry x="370" y="460" width="120" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="pPHUmfUADK51aJkziXxl-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#000000;" parent="pPHUmfUADK51aJkziXxl-118" source="pPHUmfUADK51aJkziXxl-50" target="pPHUmfUADK51aJkziXxl-52" edge="1">
