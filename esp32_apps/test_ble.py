@@ -1,4 +1,5 @@
 import ubluetooth as bluetooth
+import struct
 
 # Configuration
 ble = bluetooth.BLE()
@@ -20,8 +21,8 @@ def ble_irq(event, data):
         print('USER:',addr,'disconnected')
         start_ble()
     elif event == 4:
-        print('RX:',ble.gatts_read(rx))
-        ble.gatts_write(tx,'test')
+        ble_rx = ble.gatts_read(rx)
+        print('RX:', ble_rx)
         
 ble.irq(ble_irq)
 
@@ -39,8 +40,13 @@ def stop_ble():
 
 def start_ble():
     print('start ble')
-    ble.gap_advertise(100, bytearray('\x02\x01\x02') + adv_encode_name('ESP32'))
+    ble.gap_advertise(100, to_byte('ESP32_ENV'))
 
-def adv_encode_name(name):
-    name = bytes(name, 'ascii')
-    return bytearray((len(name) + 1, 0x09)) + name
+def ble_wr(data):
+    ble_tx = to_byte(data)
+    ble.gatts_write(tx,ble_tx)
+
+def to_byte(string):
+    string = bytes(string, 'ascii')
+    return bytearray((len(string) + 1, 0x09)) + string
+
