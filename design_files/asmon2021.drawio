@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T20:25:18.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Safari/537.36" etag="QZib183xMddRXx0K4SYM" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T23:56:34.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Safari/537.36" etag="xophzsLUN58VfU3Ifv8Q" version="14.0.1" type="github">
   <diagram id="V_2FsqrP_TnfR3m9TM38" name="Page-1">
-    <mxGraphModel dx="1548" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="735" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,10 +35,10 @@
         <mxCell id="0nXp7-gPV26Zt1LkQGKB-17" value="async_system" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0nXp7-gPV26Zt1LkQGKB-18" value="credentials" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0nXp7-gPV26Zt1LkQGKB-18" value="credentials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="20" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0nXp7-gPV26Zt1LkQGKB-20" value="wifi_state" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0nXp7-gPV26Zt1LkQGKB-20" value="wifi_state" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="150" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0nXp7-gPV26Zt1LkQGKB-24" value="cam_state" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
