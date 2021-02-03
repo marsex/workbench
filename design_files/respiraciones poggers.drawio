@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T00:03:48.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="C1OtfvaP4b8xQuTyK81j" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T00:12:04.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="gpJeJ12L8MEhf_kT0ePq" version="14.2.9" type="github">
   <diagram id="3oyoTQynbpDbM4ZEqOCm" name="Page-1">
     <mxGraphModel dx="1838" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -104,11 +104,13 @@
         <mxCell id="PqaMejwaI_BLGs7dTHtu-40" value="nota #2: Vas a entrar en un profundo estado de relajación.&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;Podes usar este estado para concentrarte en tus sentidos. &lt;br&gt;&amp;nbsp;E&lt;/span&gt;l cuerpo pide inhalar pero te va a ser fácil resistirlo, si bien no hace falta esforzarse en contener la exhalación, lo mejor es llevar el cuerpo al máximo estado de shock obligándote a inhalar.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="130" y="790" width="240" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="PqaMejwaI_BLGs7dTHtu-50" value="TIEMPO ESTIMADO DE TRABAJO: 30 MINUTOS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-30" width="760" height="70" as="geometry" />
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-55" value="TECNICA DE RESPIRACION: METODO WIM HOF OPTIMIZADO" style="swimlane;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-150" width="630" height="1270" as="geometry">
+            <mxRectangle x="100" y="-70" width="510" height="60" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="PqaMejwaI_BLGs7dTHtu-54" value="&lt;span style=&quot;font-size: 16px ; font-weight: 400&quot;&gt;TECNICA DE RESPIRACION: METODO WIM HOF OPTIMIZADO&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-90" width="760" height="40" as="geometry" />
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-50" value="OBJETIVOS: &lt;br&gt;-REDUCIR NIVELES DE ESTRES Y ANSIEDAD&lt;br&gt;-CONTROLAR EL CUERPO Y MENTE A VOLUNTAD&lt;br&gt;-ELEVAR ESTADO DE CONCIENCIA&lt;br&gt;-IDENTIFICAR FACTORES ESTRESANTES&lt;br&gt;&lt;br&gt;TIEMPO ESTIMADO DE TRABAJO: 30 MINUTOS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;" vertex="1" parent="PqaMejwaI_BLGs7dTHtu-55">
+          <mxGeometry y="60" width="630" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
