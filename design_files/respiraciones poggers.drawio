@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-03T00:12:04.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="gpJeJ12L8MEhf_kT0ePq" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T08:15:03.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="8-AiAk5i2TvxjtuNZk2x" version="14.2.9" type="github">
   <diagram id="3oyoTQynbpDbM4ZEqOCm" name="Page-1">
-    <mxGraphModel dx="1838" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2603" dy="2547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,12 +105,12 @@
           <mxGeometry x="130" y="790" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-55" value="TECNICA DE RESPIRACION: METODO WIM HOF OPTIMIZADO" style="swimlane;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=60;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-150" width="630" height="1270" as="geometry">
+          <mxGeometry x="110" y="-260" width="630" height="1370" as="geometry">
             <mxRectangle x="100" y="-70" width="510" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqaMejwaI_BLGs7dTHtu-50" value="OBJETIVOS: &lt;br&gt;-REDUCIR NIVELES DE ESTRES Y ANSIEDAD&lt;br&gt;-CONTROLAR EL CUERPO Y MENTE A VOLUNTAD&lt;br&gt;-ELEVAR ESTADO DE CONCIENCIA&lt;br&gt;-IDENTIFICAR FACTORES ESTRESANTES&lt;br&gt;&lt;br&gt;TIEMPO ESTIMADO DE TRABAJO: 30 MINUTOS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;" vertex="1" parent="PqaMejwaI_BLGs7dTHtu-55">
-          <mxGeometry y="60" width="630" height="140" as="geometry" />
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-50" value="OBJETIVOS: &lt;br&gt;-REDUCIR NIVELES DE ESTRES Y ANSIEDAD&lt;br&gt;-CONTROLAR EL CUERPO Y MENTE A VOLUNTAD&lt;br&gt;-ELEVAR ESTADO DE CONCIENCIA&lt;br&gt;-IDENTIFICAR AGENTES EXTERNOS ESTRESANTES&lt;br&gt;&lt;br&gt;TIEMPO ESTIMADO DE TRABAJO: 30 MINUTOS&lt;br&gt;&lt;br&gt;¡¡ADVERTENCIA!! Este método NO debe utilizarse como &quot;MACHETE&quot; en lo cotidiano. El uso prolongado de esta practica puede causar DISASOCIACION DEL EGO. Este método debe utilizarse en moderación, como herramienta para alcanzar metas, forjar criterios y superar adversidades." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=top;" vertex="1" parent="PqaMejwaI_BLGs7dTHtu-55">
+          <mxGeometry y="60" width="630" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
