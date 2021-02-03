@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T23:58:16.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="TejjO8CC4nb5nUJL9U6s" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-03T00:03:48.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="C1OtfvaP4b8xQuTyK81j" version="14.2.9" type="github">
   <diagram id="3oyoTQynbpDbM4ZEqOCm" name="Page-1">
-    <mxGraphModel dx="2412" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1838" dy="2218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-1" value="lugar comodo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="250" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-2" target="PqaMejwaI_BLGs7dTHtu-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-2" value="inhalar y exhalar en profundidad en intervalos comodos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="250" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="420" y="170" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-9" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-4" target="PqaMejwaI_BLGs7dTHtu-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="350" />
-              <mxPoint x="440" y="240" />
+              <mxPoint x="610" y="320" />
+              <mxPoint x="610" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -28,19 +28,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-4" value="respiracion normalizada?" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="250" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-10" target="PqaMejwaI_BLGs7dTHtu-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-10" value="inhalar a 100% de capacidad pulmonar" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="250" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-12" target="PqaMejwaI_BLGs7dTHtu-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-12" value="exhalar relajando los pulmones, logrando una descompresión controlada de un 40%" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="250" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-15" target="PqaMejwaI_BLGs7dTHtu-10">
           <mxGeometry relative="1" as="geometry" />
@@ -48,44 +48,44 @@
         <mxCell id="PqaMejwaI_BLGs7dTHtu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-15" target="PqaMejwaI_BLGs7dTHtu-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqaMejwaI_BLGs7dTHtu-15" value="nota #1: si sentis la cabeza ligera, relajate, dejate llevar concentrandote en la respiracion." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="420" width="210" height="160" as="geometry" />
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-15" value="nota #1: Vas a sentir la cabeza ligera, relajate, dejate llevar concentrandote en la respiracion." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="390" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-16" target="PqaMejwaI_BLGs7dTHtu-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-16" value="inhalar 100%" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="250" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-18" target="PqaMejwaI_BLGs7dTHtu-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-18" value="exhalar al 100% vaciando completamente los pulmones" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="250" y="820" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-20" target="PqaMejwaI_BLGs7dTHtu-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-20" value="parar completamente la respiración, manteniendo los pulmones vacíos sin esfuerzo" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="250" y="920" width="120" height="70" as="geometry" />
+          <mxGeometry x="420" y="890" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-24" value="repetir&lt;br&gt;4 veces" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-22" target="PqaMejwaI_BLGs7dTHtu-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="130" as="targetPoint" />
+            <mxPoint x="540" y="100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="520" y="1075" />
-              <mxPoint x="520" y="450" />
+              <mxPoint x="690" y="1045" />
+              <mxPoint x="690" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-22" value="inhalar al 100% excediendo la capacidad pulmonar y aguantar la respiración sin esfuerzo" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1030" width="120" height="90" as="geometry" />
+          <mxGeometry x="420" y="1000" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-33" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-31" target="PqaMejwaI_BLGs7dTHtu-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="440" y="650" />
-              <mxPoint x="440" y="450" />
+              <mxPoint x="610" y="620" />
+              <mxPoint x="610" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -93,7 +93,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-31" value="repetir 30 veces, ciclo completado?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="250" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PqaMejwaI_BLGs7dTHtu-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-40" target="PqaMejwaI_BLGs7dTHtu-20">
           <mxGeometry relative="1" as="geometry" />
@@ -101,11 +101,14 @@
         <mxCell id="PqaMejwaI_BLGs7dTHtu-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="PqaMejwaI_BLGs7dTHtu-40" target="PqaMejwaI_BLGs7dTHtu-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqaMejwaI_BLGs7dTHtu-40" value="nota #2: vas a entrar en un profundo estado de relajación.&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;Podes usar este estado para concentrarte en tus sentidos. &lt;br&gt;&amp;nbsp;E&lt;/span&gt;l cuerpo pide inhalar pero te va a ser fácil resistirlo, si bien no hace falta esforzarse en contener la exhalación, lo mejor es llevar el cuerpo al máximo estado de shock obligándote a inhalar.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="820" width="210" height="300" as="geometry" />
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-40" value="nota #2: Vas a entrar en un profundo estado de relajación.&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;Podes usar este estado para concentrarte en tus sentidos. &lt;br&gt;&amp;nbsp;E&lt;/span&gt;l cuerpo pide inhalar pero te va a ser fácil resistirlo, si bien no hace falta esforzarse en contener la exhalación, lo mejor es llevar el cuerpo al máximo estado de shock obligándote a inhalar.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="790" width="240" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="PqaMejwaI_BLGs7dTHtu-47" value="" style="whiteSpace=wrap;html=1;rounded=0;fontSize=16;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="600" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-50" value="TIEMPO ESTIMADO DE TRABAJO: 30 MINUTOS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-30" width="760" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PqaMejwaI_BLGs7dTHtu-54" value="&lt;span style=&quot;font-size: 16px ; font-weight: 400&quot;&gt;TECNICA DE RESPIRACION: METODO WIM HOF OPTIMIZADO&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-90" width="760" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
