@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T10:28:39.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.9" etag="TZcVE3NGX1Q1vlsUI_FF" type="github"><diagram id="fr4mUAlsq-fQJ0DmJ3JU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-04T10:31:50.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="Z-h5oEofmXpma-OswsJ2" version="14.2.9" type="github">
+  <diagram id="fr4mUAlsq-fQJ0DmJ3JU" name="Page-1">
+    <mxGraphModel dx="1562" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4lGYki7NS7SsPbwoJfQG-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4lGYki7NS7SsPbwoJfQG-1" target="4lGYki7NS7SsPbwoJfQG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4lGYki7NS7SsPbwoJfQG-1" value="funcion de evento en placa: registrar interrupcion de entrada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4lGYki7NS7SsPbwoJfQG-2" value="enviar comando, &lt;br&gt;comado:{&lt;br&gt;&amp;nbsp; command:&#39;evento&#39;,&lt;br&gt;&amp;nbsp; data:{&lt;br&gt;&amp;nbsp; &amp;nbsp; pin:1,&lt;br&gt;&amp;nbsp; &amp;nbsp; tag:&quot;timbre&quot;&lt;br&gt;&amp;nbsp; }&lt;br&gt;}" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="280" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
