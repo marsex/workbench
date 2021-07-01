@@ -1,61 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T19:03:58.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="WRBST7u-eCjfgnBw4EfD" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T22:45:12.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="b79Y6d-AlfOjEMoXq1KF" version="14.8.3" type="github">
   <diagram id="zksOzhmgCKHxx3TI2H-X" name="Page-1">
-    <mxGraphModel dx="1279" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tDVwCrI6mQzgKmQ2pOSk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-2" target="tDVwCrI6mQzgKmQ2pOSk-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-2" value="añadir" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-2" value="añadir" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="290" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDVwCrI6mQzgKmQ2pOSk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-3" target="tDVwCrI6mQzgKmQ2pOSk-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-3" value="habilitar camara en html" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-3" value="habilitar camara en html" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="290" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDVwCrI6mQzgKmQ2pOSk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-5" target="tDVwCrI6mQzgKmQ2pOSk-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-5" value="esperar a que lea QR" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-5" value="esperar a que lea QR" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="290" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tDVwCrI6mQzgKmQ2pOSk-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-7" target="tDVwCrI6mQzgKmQ2pOSk-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-7" value="leer qr y almacena ssid junto psw&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-7" value="leer qr y almacenar ssid junto psw&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="290" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-9" target="tDVwCrI6mQzgKmQ2pOSk-16" edge="1">
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-9" value="preguntar por red WIFI LOCAL y EMAIL, almacenar SSID LOCAL, PSW LOCAL y&amp;nbsp; REG_EMAIL" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="290" y="410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-11" target="tDVwCrI6mQzgKmQ2pOSk-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-9" value="preguntar por red LOCAL wifi, almacenar SSID LOCAL y PSW" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-11" value="conectar a red ESP WIFI utilizando los DATOS&amp;nbsp;&lt;br&gt;SSID y PSW de QR" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="290" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-11" target="tDVwCrI6mQzgKmQ2pOSk-13" edge="1">
+        <mxCell id="-vCkx__7l7v42r5ik_Tg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcccc;strokeColor=#36393d;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-13" target="tDVwCrI6mQzgKmQ2pOSk-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-11" value="conectar a red ESP WIFI utilizando los DATOS&amp;nbsp;&lt;br&gt;SSID y PSW de QR" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-13" value="&lt;span&gt;obetener ESP_ADDRESS de ESP WIFI&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="290" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-vCkx__7l7v42r5ik_Tg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-13" target="tDVwCrI6mQzgKmQ2pOSk-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-13" value="&lt;span&gt;obetener ESP_ADDRESS de ESP WIFI&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="650" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-16" target="tDVwCrI6mQzgKmQ2pOSk-11" edge="1">
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" target="tDVwCrI6mQzgKmQ2pOSk-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="350" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-16" value="PREGUNTAR EMAIL" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="-vCkx__7l7v42r5ik_Tg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffcccc;strokeColor=#36393d;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-19" value="enviar SSID LOCAL Y PSW a ESP_ADDRESS" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="730" width="120" height="60" as="geometry" />
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-19" value="enviar SSID LOCAL, PSW, EMAIL a ESP_ADDRESS" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="290" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-vCkx__7l7v42r5ik_Tg-2" value="enviar SSID LOCAL Y PSW a ESP_ADDRESS" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="290" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
