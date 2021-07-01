@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T23:29:01.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.0" etag="1Chedfgg7WPVxjEyO2IZ" type="github"><diagram id="zksOzhmgCKHxx3TI2H-X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T00:08:51.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-5aJLJxTgA3ltJen-ONi" version="14.8.0" type="github">
+  <diagram id="zksOzhmgCKHxx3TI2H-X" name="Page-1">
+    <mxGraphModel dx="1562" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-2" target="tDVwCrI6mQzgKmQ2pOSk-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-2" value="añadir" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-3" target="tDVwCrI6mQzgKmQ2pOSk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-3" value="habilitar camara en html" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-5" target="tDVwCrI6mQzgKmQ2pOSk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-5" value="esperar a que lea QR" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-7" target="tDVwCrI6mQzgKmQ2pOSk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-7" value="leer qr y almacena ssid junto psw&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-9" target="tDVwCrI6mQzgKmQ2pOSk-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-9" value="preguntar por redes wifi, almacenar SSID LOCAL y PSW" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-11" target="tDVwCrI6mQzgKmQ2pOSk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-11" value="conectar a red utilizando los DATOS&amp;nbsp;&lt;br&gt;SSID y PSW de QR" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-13" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tDVwCrI6mQzgKmQ2pOSk-16" target="tDVwCrI6mQzgKmQ2pOSk-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-16" value="PREGUNTAR EMAIL" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDVwCrI6mQzgKmQ2pOSk-19" value="enviar SSID LOCAL Y PSW a ESP_ADDRESS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
