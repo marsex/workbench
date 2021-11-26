@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T02:41:29.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="P0BwqdNOMg6kOT8EXc6N" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T02:42:11.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Kg4tQBsMCoXAGPU9RT6S" version="15.8.6" type="github">
   <diagram id="n3wHWzzNEnOycL6JPHrh" name="Page-1">
-    <mxGraphModel dx="960" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2700" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,10 +119,10 @@
         <mxCell id="IS9N2NfxWNyogtAjYb_R-43" value="Ohmios" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="30" y="360" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="IS9N2NfxWNyogtAjYb_R-50" value="R = P / I2" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;html=1;labelBorderColor=none;" vertex="1" parent="IS9N2NfxWNyogtAjYb_R-43">
+        <mxCell id="IS9N2NfxWNyogtAjYb_R-50" value="R = P / I&lt;sup&gt;2&lt;/sup&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;html=1;labelBorderColor=none;" vertex="1" parent="IS9N2NfxWNyogtAjYb_R-43">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IS9N2NfxWNyogtAjYb_R-51" value="R = V2 / P" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;html=1;" vertex="1" parent="IS9N2NfxWNyogtAjYb_R-43">
+        <mxCell id="IS9N2NfxWNyogtAjYb_R-51" value="R = V&lt;sup&gt;2&lt;/sup&gt; / P" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;html=1;" vertex="1" parent="IS9N2NfxWNyogtAjYb_R-43">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IS9N2NfxWNyogtAjYb_R-52" value="R&amp;nbsp;= V / I" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;html=1;" vertex="1" parent="IS9N2NfxWNyogtAjYb_R-43">
