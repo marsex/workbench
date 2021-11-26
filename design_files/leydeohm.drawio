@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T02:50:05.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="WqXcGUubDzOWgnPH5UGq" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T02:52:34.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Qx5TKaHkD_YMiqk3Wznq" version="15.8.6" type="github">
   <diagram id="n3wHWzzNEnOycL6JPHrh" name="Page-1">
     <mxGraphModel dx="1271" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="IS9N2NfxWNyogtAjYb_R-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dq-iCA1MvDMjNIlEdtV0-1" target="IS9N2NfxWNyogtAjYb_R-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dq-iCA1MvDMjNIlEdtV0-1" value="Ley de Ohm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="Dq-iCA1MvDMjNIlEdtV0-1" value="Ley de Ohm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="430" y="40" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dq-iCA1MvDMjNIlEdtV0-4" value="Esta ley fue formulada por Georg Simon Ohm en 1827, en la obra Die galvanische Kette, basándose en evidencias empíricas." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
