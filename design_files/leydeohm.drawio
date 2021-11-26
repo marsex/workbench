@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-26T02:42:11.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Kg4tQBsMCoXAGPU9RT6S" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-26T02:42:52.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="i9OGJzZUC1x3PAWFoTHA" version="15.8.6" type="github">
   <diagram id="n3wHWzzNEnOycL6JPHrh" name="Page-1">
-    <mxGraphModel dx="2700" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1271" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
         <mxCell id="IS9N2NfxWNyogtAjYb_R-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IS9N2NfxWNyogtAjYb_R-97" target="IS9N2NfxWNyogtAjYb_R-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IS9N2NfxWNyogtAjYb_R-97" value="Fórmulas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="IS9N2NfxWNyogtAjYb_R-97" value="Avanzadas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="30" y="40" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
